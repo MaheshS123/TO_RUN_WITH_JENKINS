@@ -11,6 +11,9 @@
       <![CDATA[ appplyed wait is 1000ms]]>
     </line>
     <line>
+      <![CDATA[Mobile number is entered]]>
+    </line>
+    <line>
       <![CDATA[Imlicit wait is appplyed ]]>
     </line>
     <line>
@@ -29,12 +32,12 @@
       <![CDATA[TC ValidatingUserName is passed successfully]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-02-06T17:50:53 IST" name="Suite" finished-at="2023-02-06T17:51:10 IST" duration-ms="16894">
+  <suite started-at="2023-02-09T22:23:09 IST" name="Suite" finished-at="2023-02-09T22:23:24 IST" duration-ms="15087">
     <groups>
     </groups>
-    <test started-at="2023-02-06T17:50:53 IST" name="Test123" finished-at="2023-02-06T17:51:10 IST" duration-ms="16894">
+    <test started-at="2023-02-09T22:23:09 IST" name="Test123" finished-at="2023-02-09T22:23:24 IST" duration-ms="15087">
       <class name="FacebookTest_MVN.ValidatingUserName">
-        <test-method is-config="true" signature="lounchFacebook()[pri:0, instance:FacebookTest_MVN.ValidatingUserName@5ae50ce6]" started-at="2023-02-06T17:50:53 IST" name="lounchFacebook" finished-at="2023-02-06T17:50:57 IST" duration-ms="3584" status="PASS">
+        <test-method is-config="true" signature="lounchFacebook()[pri:0, instance:FacebookTest_MVN.ValidatingUserName@5ae50ce6]" started-at="2023-02-09T22:23:09 IST" name="lounchFacebook" finished-at="2023-02-09T22:23:13 IST" duration-ms="3303" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Lounching Facebook Application ]]>
@@ -47,7 +50,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- lounchFacebook -->
-        <test-method signature="ValidatingUserName(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:FacebookTest_MVN.ValidatingUserName@5ae50ce6]" started-at="2023-02-06T17:50:57 IST" name="ValidatingUserName" data-provider="FB_Data" finished-at="2023-02-06T17:51:08 IST" duration-ms="11115" status="PASS">
+        <test-method signature="ValidatingUserName(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:FacebookTest_MVN.ValidatingUserName@5ae50ce6]" started-at="2023-02-09T22:23:13 IST" name="ValidatingUserName" data-provider="FB_Data" finished-at="2023-02-09T22:23:22 IST" duration-ms="9530" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -66,6 +69,9 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[Mobile number is entered]]>
+            </line>
             <line>
               <![CDATA[Imlicit wait is appplyed ]]>
             </line>
@@ -86,7 +92,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- ValidatingUserName -->
-        <test-method is-config="true" signature="LogOutFromFacebook()[pri:0, instance:FacebookTest_MVN.ValidatingUserName@5ae50ce6]" started-at="2023-02-06T17:51:08 IST" name="LogOutFromFacebook" finished-at="2023-02-06T17:51:10 IST" duration-ms="2177" status="PASS">
+        <test-method is-config="true" signature="LogOutFromFacebook()[pri:0, instance:FacebookTest_MVN.ValidatingUserName@5ae50ce6]" started-at="2023-02-09T22:23:22 IST" name="LogOutFromFacebook" finished-at="2023-02-09T22:23:24 IST" duration-ms="2234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogOutFromFacebook -->
