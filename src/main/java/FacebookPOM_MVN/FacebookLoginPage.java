@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Reporter;
 
 
 public class FacebookLoginPage {
@@ -22,7 +23,7 @@ public class FacebookLoginPage {
 	public void EnterID(String ID) throws EncryptedDocumentException, IOException {
 		
 		IDTab.sendKeys(ID);
-		
+		Reporter.log("Mobile number is entered", true);
 	}
 public void EnterPass(String Pass) throws EncryptedDocumentException, IOException {
 		
