@@ -23,7 +23,7 @@ public class FacebookLoginPage {
 	public void EnterID(String ID) throws EncryptedDocumentException, IOException {
 		
 		IDTab.sendKeys(ID);
-		Reporter.log("Mobile number is entered", true);
+		Reporter.log("Mobile number entered", true);
 	}
 public void EnterPass(String Pass) throws EncryptedDocumentException, IOException {
 		
